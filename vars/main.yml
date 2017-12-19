@@ -1,5 +1,6 @@
 ---
 # vars file for ansible-maestro-client
+sdkman_dir: /opt/sdk
 sdkman_auto_answer: true
 sdkman_update: true
 sdkman_validate_ssl: false
