@@ -1,2 +1,8 @@
 ---
-# tasks file for ansible-maestro-client
+    #  sdkman_flush_caches_before:
+    #   - temp
+    # sdkman_flush_caches_after:
+    #   - archives
+    #   - broadcast
+    #   - candidates
+    #   - temp

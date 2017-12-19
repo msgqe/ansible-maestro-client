@@ -1,2 +1,7 @@
 ---
 # vars file for ansible-maestro-client
+sdkman_auto_answer: true
+sdkman_update: true
+sdkman_validate_ssl: false
+sdkman_install_packages:
+  - { candidate: groovy, version: 2.4.12 }
