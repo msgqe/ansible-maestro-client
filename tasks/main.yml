@@ -1,8 +1,5 @@
 ---
-    #  sdkman_flush_caches_before:
-    #   - temp
-    # sdkman_flush_caches_after:
-    #   - archives
-    #   - broadcast
-    #   - candidates
-    #   - temp
+- name: Install Maestro client
+  tags:
+    - maestro
+  include: maestro_client.yml

@@ -30,10 +30,9 @@
         - ansible_distribution == 'RedHat' or ansible_distribution == 'CentOS'
       shell: rpm --rebuilddb
 
-
 - hosts: docker_containers
   remote_user: root
   vars:
-    maestro_use_classic: true
+    maestro_client_download_url: http://www.orpiske.net/files/maestro-java/1.2.0/maestro-cli-1.2.0-bin.tar.gz
   roles:
     - ansible-maestro-client
