@@ -16,7 +16,9 @@ The package libselinux-python is required for running the test.
 Role Variables
 --------------
 
-None.
+| Name              | Default Value       | Description          |
+|-------------------|---------------------|----------------------|
+| `maestro_client_download_url` | null | Download URL |
 
 
 Dependencies
