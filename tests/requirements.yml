@@ -18,10 +18,3 @@
 - src: https://github.com/msgqe/ansible-basic-server.git
   scm: git
   name: ansible-basic-server
-
-- name: Comcast.sdkman
-
-# Disabled for now (waiting for a fix for Artemis)
-# - src: https://github.com/msgqe/ansible-amq-broker.git
-#   scm: git
-#   name: ansible-amq-broker
