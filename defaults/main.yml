@@ -8,5 +8,4 @@ maestro_client_install_dest: "/home/{{ maestro_client_user }}/"
 maestro_client_download_dest: /tmp/
 maestro_client_install_link: maestro-client
 maestro_client_skip_install: false
-maestro_client_log_dir: "{{ maestro_client_install_dest }}/log"
 
