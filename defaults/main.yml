@@ -3,6 +3,7 @@
 maestro_client_user: maestro
 
 # defaults file for ansible-maestro-client
+maestro_download_validate_certs: yes
 maestro_client_download_url: "{{ lookup('env','MAESTRO_CLIENT_DOWNLOAD_URL') | default('', true) }}"
 maestro_client_install_dest: "/home/{{ maestro_client_user }}/"
 maestro_client_download_dest: /tmp/
